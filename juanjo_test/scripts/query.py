@@ -95,7 +95,7 @@ def load_llm(config):
     Raises:
         ValueError: If the model is not supported.
     """
-    model_id = os.environ["HUGGINGFACE_HUB_CACHE"] + "/" + config["model_id"]
+    model_id = os.environ["HUGGINGFACE_HUB_CACHE"] + "/licensed_models/" + config["model_id"]
 
     if "llama" in model_id.lower():
         tokenizer = LlamaTokenizer.from_pretrained(model_id)
