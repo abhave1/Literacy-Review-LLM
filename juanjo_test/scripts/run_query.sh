@@ -8,4 +8,4 @@
 module load mamba/latest
 source activate genai23.10
 
-python scripts/query.py <db_directory> <questions_file> <responses_file> [config_file]
+python scripts/query.py example/llm-db example/questions.txt example/answers.txt

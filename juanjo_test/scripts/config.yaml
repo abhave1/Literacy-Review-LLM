@@ -23,8 +23,9 @@ search_kwargs:
 
 # Model
 # model_id: "Llama2-7b-chat-hf/"
-model_id: "Llama2-13b-chat-hf/"
+# model_id: "Llama2-13b-chat-hf"
 # model_id: "Llama2-70b-chat-hf/"
+model_id: "falcon-180B-chat/"
 
 # Model token max length
 token_max: 4096  # Llama-2

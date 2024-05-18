@@ -24,7 +24,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from utils import load_config, set_progress
 
 # TODO: add the appropriate sol directory here
-os.environ['HUGGINGFACE_HUB_CACHE'] = 
+os.environ["HUGGINGFACE_HUB_CACHE"] = "scratch/dshah47./cache"
 
 
 def check_input(input_path):

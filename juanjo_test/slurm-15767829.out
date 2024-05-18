@@ -1,0 +1,34 @@
+
+=====================================================================
+This module is intended solely for building or source activating user
+python environments, i.e.,
+
+    mamba create -n myenv -c conda-forge
+
+or
+
+    source activate myenv
+
+To list available environments, run:
+
+    mamba info --envs
+
+See our docs: https://links.asu.edu/solpy
+
+Any other use is NOT TESTED.
+=====================================================================
+
+  
+  0%|          | 0/100Loading configuration data:   0%|          | 0/100Reading database:   1%|          | 1/100          Reading database:  10%|█         | 10/100Set up LLM:  10%|█         | 10/100      load INSTRUCTOR_Transformer
+max_seq_length  512
+
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s][A
+Loading checkpoint shards:  17%|█▋        | 1/6 [00:16<01:19, 16.00s/it][A
+Loading checkpoint shards:  33%|███▎      | 2/6 [00:31<01:02, 15.61s/it][A
+Loading checkpoint shards:  50%|█████     | 3/6 [00:46<00:45, 15.32s/it][A
+Loading checkpoint shards:  67%|██████▋   | 4/6 [01:05<00:33, 16.80s/it][A
+Loading checkpoint shards:  83%|████████▎ | 5/6 [01:21<00:16, 16.44s/it][A
+Loading checkpoint shards: 100%|██████████| 6/6 [01:25<00:00, 12.21s/it][ALoading checkpoint shards: 100%|██████████| 6/6 [01:25<00:00, 14.20s/it]
+Set up LLM:  40%|████      | 40/100Create memory:  40%|████      | 40/100Set up prompt:  45%|████▌     | 45/100Querying the database:  70%|███████   | 70/100/packages/envs/genai23.10/lib/python3.11/site-packages/bitsandbytes/autograd/_functions.py:322: UserWarning: MatMul8bitLt: inputs will be cast from torch.bfloat16 to float16 during quantization
+  warnings.warn(f"MatMul8bitLt: inputs will be cast from {A.dtype} to float16 during quantization")
+Querying the database:  78%|███████▊  | 77.5/100Querying the database:  78%|███████▊  | 77.5/100Querying the database:  85%|████████▌ | 85.0/100Querying the database:  85%|████████▌ | 85.0/100Querying the database:  92%|█████████▎| 92.5/100Querying the database:  92%|█████████▎| 92.5/100Querying the database: 100%|██████████| 100.0/100Querying the database: 100%|██████████| 100.0/100All queries processed: 100%|██████████| 100.0/100All queries processed: 100%|██████████| 100.0/100

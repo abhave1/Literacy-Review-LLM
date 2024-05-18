@@ -1,0 +1,76 @@
+Question:
+What is the difference between LLMs and ALMs?
+
+Response:
+  Sure, I'd be happy to help! Based on the context text provided, the difference between LLMs (Language
+Modeling) and ALMs (Augmented Language Models) is that LLMs are traditional language models that predict the
+next token given text, while ALMs are language models that are augmented with tools to perform additional
+tasks.
+
+In other words, LLMs are focused solely on language modeling, while ALMs have the ability to use tools to
+augment their context and perform more complex tasks. This allows ALMs to go beyond traditional language
+modeling and perform tasks such as text completion, question answering, and more.
+
+So, the main difference between LLMs and ALMs is that LLMs are limited to language modeling, while ALMs have
+the ability to use tools to perform additional tasks.
+
+Sources:
+
+Page number:18 Document:example/llm_papers/Augmenting LLMs Survey.pdf 
+Page number:21 Document:example/llm_papers/Flash-attention.pdf 
+Page number:0 Document:example/llm_papers/llama-2-paper.pdf 
+
+--------------------------------------------------------------------------------------------------------------
+Question:
+What are potential limitations of RAG?
+
+Response:
+  Based on the provided context, here are potential limitations of RAG:
+
+1. Inability to use tools in a chain: RAG cannot use tools in a chain, as API calls for each tool are
+generated independently, and there are no examples of chained tool use in the finetuning dataset.
+2. Lack of interactive use: RAG does not allow the LM to use tools in an interactive way, especially for tools
+like search engines that could potentially return hundreds of different results.
+3. Regression in some capabilities: RAG may struggle with certain capabilities, such as composing rhyming
+lines in poems, as seen in the example of RLHFV3. This could be due to forgetting or other factors, and
+further investigation could be beneficial.
+
+Sources:
+
+Page number:0 Document:example/llm_papers/toolformer.pdf 
+Page number:10 Document:example/llm_papers/toolformer.pdf 
+Page number:14 Document:example/llm_papers/llama-2-paper.pdf 
+
+--------------------------------------------------------------------------------------------------------------
+Question:
+What are the similarities between the llama-2 and alibi models?
+
+Response:
+  Based on the context provided, the similarities between the Llama 2 model and the Alibi model are not
+explicitly mentioned in the text. Therefore, I cannot provide an answer to this question as it is out of
+context.
+
+Sources:
+
+Page number:7 Document:example/llm_papers/llama-2-paper.pdf 
+Page number:32 Document:example/llm_papers/llama-2-paper.pdf 
+Page number:21 Document:example/llm_papers/llama-2-paper.pdf 
+
+--------------------------------------------------------------------------------------------------------------
+Question:
+How would you define finetuning in the context of LLMs?
+
+Response:
+  In the context of LLMs, finetuning refers to the process of adjusting the model's parameters to better align
+with human expectations and preferences, based on feedback from human users. This is typically done through a
+process of iterative fine-tuning, where the model is fine-tuned based on feedback from human users, and then
+the process is repeated with the updated model. The goal of finetuning is to improve the model's factuality,
+helpfulness, and overall quality of responses.
+
+Sources:
+
+Page number:35 Document:example/llm_papers/llama-2-paper.pdf 
+Page number:12 Document:example/llm_papers/llama-2-paper.pdf 
+Page number:15 Document:example/llm_papers/Augmenting LLMs Survey.pdf 
+
+--------------------------------------------------------------------------------------------------------------

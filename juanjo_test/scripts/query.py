@@ -24,7 +24,7 @@ from transformers import TextIteratorStreamer, pipeline
 import utils
 
 # TODO: add the appropriate sol directory here
-os.environ["HUGGINGFACE_HUB_CACHE"] = 
+os.environ["HUGGINGFACE_HUB_CACHE"] = "/scratch/dshah47/.cache"
 
 
 def process_llm_response(llm_response, width, out_file):
